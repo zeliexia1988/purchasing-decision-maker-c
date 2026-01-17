@@ -1,9 +1,3 @@
-import os
-import streamlit as st
-
-# 调试代码：显示当前目录下的所有文件
-st.write("服务器当前目录下的文件有：", os.listdir("."))
-
 import streamlit as st
 import pandas as pd
 from datetime import datetime
@@ -150,3 +144,4 @@ if contracts is not None:
         else:
 
             st.info(result)
+
